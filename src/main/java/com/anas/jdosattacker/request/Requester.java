@@ -113,6 +113,7 @@ public class Requester implements Runnable {
         } else {
             Requester.requestMethod = requestMethod;
         }
+        //
     }
 
     public static int getConnectTimeout() {
